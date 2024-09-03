@@ -92,7 +92,8 @@ form {
   font-size: 15px;
 }
 .show {
-  width: 40px;
+  width: 60px;
+  text-align: center;
 }
 @media (max-width: 490px) {
   body {
@@ -114,7 +115,7 @@ form {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80%;
+    height: 75%;
     width: 100%;
     background-color: black;
     border-radius: 10px;
@@ -138,7 +139,7 @@ form {
     gap: 15px;
     align-items: center;
     width: 100%;
-    height: 60%;
+    height: 65%;
   }
   .details {
     display: flex;

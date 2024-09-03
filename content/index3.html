@@ -16,6 +16,7 @@
     <div class="parent">
       <div class="child">
         <h2 class="instruction">fill the form to register</h2>
+        <div class="parent_error">user already exist</div>
         <form>
           <div class="first-name">
             <label for="first-name">FIRST-NAME</label>
@@ -25,10 +26,12 @@
           <div class="last-name">
             <label for="last-name">last-NAME</label>
             <input type="text" placeholder="last-name" id="last-name" />
+            <div class="lastname-error">lastname cannot be empty</div>
           </div>
           <div class="password">
             <label for="password">password</label>
             <input type="password" placeholder="*******" id="password" />
+            <div class="password-error">password cannot be empty</div>
           </div>
           <div class="re-type-password">
             <label for="re-type-password">re-type-password</label>
@@ -37,6 +40,7 @@
               placeholder="*******"
               id="re-type-password"
             />
+            <div class="re-type-password-error">confirm your password</div>
           </div>
 
           <div class="submit"><button>submit</button></div>

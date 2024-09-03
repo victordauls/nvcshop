@@ -28,7 +28,7 @@ header {
 }
 
 .parent {
-  height: 90vh;
+  height: 107vh;
   display: flex;
   justify-content: center;
   margin: 30px;
@@ -111,7 +111,32 @@ button {
   color: red;
   font-size: 15px;
   text-transform: capitalize;
-  display: none;
+  visibility: hidden;
+}
+.lastname-error {
+  color: red;
+  font-size: 15px;
+  text-transform: capitalize;
+  visibility: hidden;
+}
+.password-error {
+  color: red;
+  font-size: 15px;
+  text-transform: capitalize;
+  visibility: hidden;
+}
+.re-type-password-error {
+  color: red;
+  font-size: 15px;
+  text-transform: capitalize;
+  visibility: hidden;
+}
+.parent_error {
+  text-align: center;
+  color: red;
+  font-size: 18px;
+  text-transform: capitalize;
+  visibility: hidden;
 }
 .sign-in {
   display: flex;
